@@ -14,7 +14,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Propriedades padding: top, right, bottom, left */
     padding: 24px 80px 24px 80px; 
 }
 
@@ -46,7 +45,6 @@ h1, h2{
 
 .botao {
     background-color: #FF725E;
-    /* Propriedade padding: vertical, horizontal */
     padding: 16px 32px;
     border-radius: 8px;
     color: white;
@@ -159,8 +157,6 @@ footer nav a {
     text-decoration: none;
     text-align: center;
 }
-
-
 
 footer p {
     margin-bottom: 16px;

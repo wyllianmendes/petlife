@@ -24,20 +24,5 @@ elementosDuvida.forEach(function (duvida, indice) {
             }
             elementosFoto[0].classList.add('selecionada')
         }
-        
-        // Segundo método da mudança de imagem abaixo: 
-        // if (elementosDuvida[indice].classList == 'duvida'){
-        //     mudarFoto()
-        //     elementosFoto[0].classList.add('selecionada')
-        // } else {
-        //     mudarFoto()
-        //     elementosFoto[indice + 1].classList.add('selecionada')
-        // }
     })
 })
-
-// Função do segundo método:
-// function mudarFoto() {
-//     const imagemSelecionada = document.querySelector('.foto.selecionada')
-//     imagemSelecionada.classList.remove('selecionada')
-// }
